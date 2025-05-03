@@ -9,6 +9,6 @@ options.add_argument('--disable-gpu')
 
 driver = webdriver.Chrome(options=options)
 
-driver.get('https://www.uradprace.cz')
+driver.get('https://www.gov.uk/')
 
 st.write(driver.page_source)
