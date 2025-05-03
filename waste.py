@@ -9,7 +9,6 @@ from selenium.webdriver.chrome.service import Service
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-gpu')
 options.add_argument('--headless')
-options.add_argument(f"--window-size={width}x{height}")
 
 service = Service()
 driver = webdriver.Chrome(service=service, options=options)
