@@ -13,7 +13,7 @@ options.add_argument('--headless')
 service = Service()
 driver = webdriver.Chrome(service=service, options=options)
 
-driver = get_driver("https://www.gov.uk/")
+driver.get("https://www.gov.uk/")
         
 time.sleep(3)
 # Explicitly wait for an essential element to ensure content is loaded
